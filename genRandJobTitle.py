@@ -1,6 +1,6 @@
 # Author        : Prasanna Krishnan
 # Date          : 2017-08-02
-# Title         : Return a random job title for testing
+# Title         : Return random job title
 # Description   : Return a random job title for testing
 import random
 

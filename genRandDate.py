@@ -1,6 +1,6 @@
 # Author        : Prasanna Krishnan
 # Date          : 2017-08-02
-# Title         : Return a random date for testing
+# Title         : Return random date
 # Description   : Return a random date for testing
 
 from datetime import datetime

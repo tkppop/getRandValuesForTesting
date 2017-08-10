@@ -1,13 +1,13 @@
 # Author        : Prasanna Krishnan
 # Date          : 2017-06-19
-# Title         : Generate random US State Name
-# Description   : Generate random US State Name
+# Title         : Return random US State
+# Description   : Return random US State Name
 from random import randint
 
 class genRandomUSState:
     def genRandomUSStateName(self):
         t = randint(0,len(self.USStates))
-        #PK - I dont why the list return state first and in other cases returns the city as the first items,
+        #PK - I don't why the list return state first and in other cases returns the city as the first items,
         #so I am ordering this random behavior using this simple if condition and no I dint have time to see why it returns in a random order.
         if len(list(self.USStates[t])[0]) == 2:
             state = list(self.USStates[t])[0]

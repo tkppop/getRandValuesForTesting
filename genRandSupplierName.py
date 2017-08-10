@@ -1,6 +1,6 @@
 # Author        : Prasanna Krishnan
 # Date          : 2017-08-03
-# Title         : Return a random supplier name for testing
+# Title         : Return supplier name
 # Description   : Return a random supplier name for testing
 import random
 

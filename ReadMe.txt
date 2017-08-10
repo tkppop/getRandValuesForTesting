@@ -1,0 +1,2 @@
+These files are used to generate random variables that can be used in automation testing.
+These are common variables that you may be asked to populate as a part of a form. e.g. Name, address phone number etc.

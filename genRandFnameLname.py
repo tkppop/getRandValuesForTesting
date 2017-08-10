@@ -1,6 +1,6 @@
 # Author        : Prasanna Krishnan
 # Date          : 2017-06-09
-# Title         : Create random name for testing
+# Title         : return random name
 # Description   : Create random name for testing
 import csv
 from random import randint
@@ -8,7 +8,7 @@ class genNames:
     def genRandomFnameLname(self):
         fname = "Firstname"
         lname = "Lastname"
-        nameFile = "Test users.csv"
+        nameFile = "/Users/prasannak/PycharmProjects/getRandValuesForTesting/Test users.csv"
         f = open(nameFile, 'rt')
         fileReader = csv.reader(f)
         #passing it to a list since the file is small

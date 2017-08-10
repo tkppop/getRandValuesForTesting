@@ -1,6 +1,6 @@
 # Author        : Prasanna Krishnan
 # Date          : 2017-08-03
-# Title         : Return a random address for testing
+# Title         : Return random address
 # Description   : Return a random address for testing
 import random
 from genRandNumber import genRandomNumber

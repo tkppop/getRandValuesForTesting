@@ -1,6 +1,6 @@
 # Author        : Prasanna Krishnan
 # Date          : 2017-06-09
-# Title         : Create random number with n digits
+# Title         : return random number
 # Description   : Create random number with n digits
 from random import randint
 
